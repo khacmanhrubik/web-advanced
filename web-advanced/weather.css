@@ -1,0 +1,99 @@
+*{
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/003/680/429/large/nova-ashbell-sc01-03.jpg?1476361405");
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-image: url("https://media.giphy.com/media/G0Odfjd78JTpu/giphy.gif");
+    width: 400px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+/* ==== Css Search bar ====== */
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3px;
+}
+.input-search{
+    background: transparent;
+    padding-left: 4px;
+    color: white;
+}
+.input-search::placeholder{
+    color: white;
+}
+/* ========================= */
+/* =========== info search ============ */
+
+.info-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.name-city{
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+.status{
+    font-size: 13px;
+}
+.img{
+    height: 70px;
+    width: 70px;
+}
+.numberC{
+    font-size: 80px;
+}
+.numberC::after{
+    content: "o";
+    font-size: 30px;
+    position: absolute;
+}
+/* =========================== */
+/* ============= info-section ========== */
+.info-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 15px 20px;
+    border-top: 1px solid white;
+}
+.row{
+    display: flex;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.lable{
+    font-weight: 600;
+    font-size: 16px;
+}
+.value{
+    font-weight: 500;
+    font-size: 15px;
+}
+/* =========================== */
+
+
